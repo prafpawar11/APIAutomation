@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "boolean"
+    },
+    "product_price": {
+      "type": "number"
+    },
+    "city": {
+      "type": "string"
+    },
+    "pincode": {
+      "type": "integer"
+    },
+    "state": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "fullName",
+    "email",
+    "phone",
+    "gender",
+    "product_price",
+    "city",
+    "pincode",
+    "state",
+    "country"
+  ]
+}

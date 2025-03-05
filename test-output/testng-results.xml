@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-14T06:55:14 IST" name="Default suite" finished-at="2025-01-14T06:55:16 IST" duration-ms="2319">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-01-14T06:55:14 IST" name="Default test" finished-at="2025-01-14T06:55:16 IST" duration-ms="2319">
+      <class name="Runner.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:14 IST" name="setUpClass" finished-at="2025-01-14T06:55:14 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@40c76f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="1791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create new customer using post request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test customer all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="50" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["update customer using put request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test customer all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["retrieve customer using get request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test customer all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete customer using get request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test customer all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create new map using post request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Map all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["retrieve map using post request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Map all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["update map using put request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Map all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["retrieve map using get request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Map all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete map using delete request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Map all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-14T06:55:16 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["retrieve map using get request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Map all endpoints"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.RunnerTest@35e2d654]" started-at="2025-01-14T06:55:16 IST" name="tearDownClass" finished-at="2025-01-14T06:55:16 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
