@@ -1,0 +1,24 @@
+{
+	"createcustomer": {
+		"fullName": "Nikita Mane",
+		"email": "pallavi@cg.com",
+		"phone": "90909090",
+		"gender": false,
+		"product_price": 1909.99,
+		"city": "Pune",
+		"pincode": 112233,
+		"state": "MH",
+		"country": "INDIA"
+	},
+	"updatecustomer": {
+		"fullName": "Sonali Patil",
+		"email": "sonali@gmail.com",
+		"phone": "9090909",
+		"gender": false,
+		"product_price": 900.3,
+		"city": "Pune",
+		"pincode": 11223,
+		"state": "MH",
+		"country": "India"
+	}
+}
